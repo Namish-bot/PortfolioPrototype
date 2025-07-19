@@ -59,14 +59,15 @@ export const Timeline = ({ data }) => {
           style={{
             height: height + "px",
           }}
-          className="absolute md:left-1 left-1 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-700 to-transparent to-[99%]  [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] "
+          className="absolute md:left-1 left-1 top-0 overflow-hidden w-[4px] rounded-full"
         >
           <motion.div
             style={{
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-lavender/50 to-transparent from-[0%] via-[10%] rounded-full"
+            transition={{ type: 'spring', stiffness: 60, damping: 18 }}
+            className="absolute inset-x-0 top-0 w-[4px] bg-gradient-to-b from-[#c91da0] via-[#d32bb0] via-[#dc39c0] via-[#e647d0] to-[#f054e0] rounded-full"
           />
         </div>
       </div>

@@ -15,28 +15,33 @@ const ParallaxBackground = () => {
         <div
           className="absolute inset-0 w-full h-screen -z-50"
           style={{
-            backgroundImage: "url(/assets/sky.jpg)",
+            backgroundImage: "url(/assets/sky2.jpg)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
         />
         {/* Mountain Layer 3 */}
         <motion.div
-          className="absolute inset-0 -z-40"
+          className="absolute inset-0 -z-30"
           style={{
-            backgroundImage: "url(/assets/mountain-3.png)",
+            backgroundImage: "url(/assets/mountain-7.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain3Y,
+            border: '4px solid white',
+            boxShadow: '0 0 40px 10px white',
           }}
+          animate={{ y: [0, 20, 0] }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />
         {/* Planets */}
         <motion.div
-          className="absolute inset-0 -z-30"
+          className="absolute inset-0 -z-15 pointer-events-none"
           style={{
             backgroundImage: "url(/assets/planets.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
+            opacity: 0.8,
             x: planetsX,
           }}
         />
@@ -44,7 +49,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-20"
           style={{
-            backgroundImage: "url(/assets/mountain-2.png)",
+            backgroundImage: "url(/assets/mountain-6.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,

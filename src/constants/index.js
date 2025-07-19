@@ -99,19 +99,19 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/rohit-k/",
+    href: "https://www.linkedin.com/in/rohit-kamatam-b98443280/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/rohit.k/",
-    icon: "/assets/socials/instagram.svg",
+    name: "GitHub",
+    href: "https://github.com/Rohit-Doi",
+    icon: "/assets/logos/GitHub_Invertocat_Logo.svg.png",
+  },
+  {
+    name: "Gmail",
+    href: "https://mail.google.com/mail/?view=cm&to=rohitkamatam123@gmail.com",
+    icon: "/assets/logos/gmail.png",
   },
 ];
 

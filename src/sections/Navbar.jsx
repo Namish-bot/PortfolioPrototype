@@ -14,13 +14,33 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
+        <a className="nav-link" href="#projects">
+          Projects
+        </a>
+      </li>
+      <li className="nav-li">
         <a className="nav-link" href="#work">
           Work
         </a>
       </li>
       <li className="nav-li">
+        <a className="nav-link" href="#skills">
+          Skills
+        </a>
+      </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#certifications">
+          Achievements & Certificates
+        </a>
+      </li>
+      <li className="nav-li">
         <a className="nav-link" href="#contact">
           Contact
+        </a>
+      </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#guestbook">
+          Guest Book
         </a>
       </li>
     </ul>
